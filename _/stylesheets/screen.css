@@ -73,7 +73,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 */
 /* Use this mixin to reset your grid by example for your mobile articles */
 /* The clearfix mixin is necessary for the floats */
-/* line 1, ../sass/layout/_wrapper.scss */
+/* line 1, ../sass/layout/_l-wrapper.scss */
 .wrapper {
   max-width: 60em;
   margin: 0 auto; }
+
+/* line 1, ../sass/module/_l-nav-main.scss */
+.l-nav-main {
+  float: left;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+  background-color: black; }
+  /* line 4, ../sass/module/_l-nav-main.scss */
+  .l-nav-main * {
+    float: left; }

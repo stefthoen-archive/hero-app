@@ -1,0 +1,7 @@
+.l-nav-main {
+	@include grid(48);
+	background-color: $color-one;
+	* {
+		float: left;
+	}
+}

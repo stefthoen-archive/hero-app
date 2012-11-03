@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Support a Hero</title>
+		<title>Help een Held</title>
 		<?php include '_/parts/css_js_includes.php' ?>
 	</head>
 	<body>
@@ -21,8 +21,9 @@
 					<h1>Jerzy Kazemier, triathleet</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor pharetra quam id fermentum. Cras semper bibendum posuere. Nullam feugiat ipsum libero. Pellentesque sit amet enim non tortor ultricies aliquam. Sed arcu justo, eleifend id condimentum pellentesque, sagittis at nisi. Ut rutrum fringilla ultricies.</p>
 				</article>
+				</section> <!-- section.featured -->
 			<section class="heroes">
-				<h2>Featured Heroes</h2>
+				<h1>Featured Heroes</h1>
 				<article class="hero">
 					<a href=""><img src="" alt=""></a>
 					<a href=""><h1 class="name"></a>

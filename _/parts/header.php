@@ -1,5 +1,5 @@
-<header>
-	<nav>
+<header id="header">
+	<nav class="l-nav-main">
 		<h1>Logo</h1>
 			<ul>
 				<li>Who Are the Heroes</li>

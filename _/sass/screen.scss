@@ -6,7 +6,11 @@
 @import "compass/reset";
 
 @import "theme/type.scss";
+@import "theme/color.scss";
 
 @import "grid.scss";
 
-@import "layout/wrapper.scss";
+@import "layout/l-wrapper.scss";
+@import "layout/header.scss";
+
+@import "module/l-nav-main.scss";
