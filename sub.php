@@ -15,28 +15,27 @@
 					</ul>
 				<a href="#" class="account">Hoi Jerzy!</a>
 			</nav>
-			<section id="featured">
-				<article class="slide">
+			<div id="mystory" class="tab">
+				<header>
 					<h1>Jerzy Kazemier, triathleet</h1>
+				</header>
+				<article>
+					<p class="video"></p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor pharetra quam id fermentum. Cras semper bibendum posuere. Nullam feugiat ipsum libero. Pellentesque sit amet enim non tortor ultricies aliquam. Sed arcu justo, eleifend id condimentum pellentesque, sagittis at nisi. Ut rutrum fringilla ultricies.</p>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor pharetra quam id fermentum. Cras semper bibendum posuere. Nullam feugiat ipsum libero. Pellentesque sit amet enim non tortor ultricies aliquam. Sed arcu justo, eleifend id condimentum pellentesque, sagittis at nisi. Ut rutrum fringilla ultricies.</p>
 				</article>
-				<article class="slide">
-					<h1>Jerzy Kazemier, triathleet</h1>
+			</div>
+			<div id="updates" class="tab">
+				<article class="update">
+					<header>
+						<h2>Update A</h2>
+					</header>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor pharetra quam id fermentum. Cras semper bibendum posuere. Nullam feugiat ipsum libero. Pellentesque sit amet enim non tortor ultricies aliquam. Sed arcu justo, eleifend id condimentum pellentesque, sagittis at nisi. Ut rutrum fringilla ultricies.</p>
 				</article>
-				<article class="slide">
-					<h1>Jerzy Kazemier, triathleet</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor pharetra quam id fermentum. Cras semper bibendum posuere. Nullam feugiat ipsum libero. Pellentesque sit amet enim non tortor ultricies aliquam. Sed arcu justo, eleifend id condimentum pellentesque, sagittis at nisi. Ut rutrum fringilla ultricies.</p>
-				</article>
-			<section class="heroes">
-				<h2>Featured Heroes</h2>
-				<article class="hero">
-					<a href=""><img src="" alt=""></a>
-					<a href=""><h1 class="heroname"></a>
-					<p class="intro"></p>	
-					<span class="">Locatie</span>
-				</article> <!-- article.hero -->
-			</section> <!-- section.featured -->
+			</div>
+			<aside>
+				
+			</aside>
 		</div>
 	</body>
 </html>
