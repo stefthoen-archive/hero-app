@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Support a Hero</title>
+		<?php include '_/parts/css_js_includes.php' ?>
 	</head>
 	<body>
 		<div class="wrapper">
