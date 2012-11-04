@@ -37,7 +37,7 @@
 			var options =  $.extend(defaults, options),
 			    slider = this,
 			    container = $('.slides', slider),
-			    slides = $('.slides li', slider),
+			    slides = $('.slides > li', slider),
 			    length = slides.length;
 			    ANIMATING = false,
           currentSlide = options.slideToStart;
@@ -60,7 +60,7 @@
         container.width(((length + 2) * slider.width()) + 2000); //extra width to account for quirks
         
         //Timeout function to give browser enough time to get proper width initially
-        var newSlides = $('.slides li', slider);
+        var newSlides = $('.slides > li', slider);
         setTimeout(function() {
           newSlides.width(slider.width()).css({"float": "left"}).show();
         }, 100);

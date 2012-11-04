@@ -11,16 +11,13 @@
 			<div class="flexslider">
 				<ul id="featured" class="slides">
 					<li id="jerzy" class="slide">
-						<h1>Jerzy Kazemier, triathleet</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor pharetra quam id fermentum. Cras semper bibendum posuere. Nullam feugiat ipsum libero. Pellentesque sit amet enim non tortor ultricies aliquam. Sed arcu justo, eleifend id condimentum pellentesque, sagittis at nisi. Ut rutrum fringilla ultricies.</p>
+						<?php include '_/parts/hero.php' ?>
 					</li>
 					<li class="slide">
-						<h1>Jerzy Kazemier, triathleet</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor pharetra quam id fermentum. Cras semper bibendum posuere. Nullam feugiat ipsum libero. Pellentesque sit amet enim non tortor ultricies aliquam. Sed arcu justo, eleifend id condimentum pellentesque, sagittis at nisi. Ut rutrum fringilla ultricies.</p>
+						<?php include '_/parts/hero.php' ?>
 					</li>
 					<li class="slide">
-						<h1>Jerzy Kazemier, triathleet</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor pharetra quam id fermentum. Cras semper bibendum posuere. Nullam feugiat ipsum libero. Pellentesque sit amet enim non tortor ultricies aliquam. Sed arcu justo, eleifend id condimentum pellentesque, sagittis at nisi. Ut rutrum fringilla ultricies.</p>
+						<?php include '_/parts/hero.php' ?>
 					</li>
 				</ul> <!-- ul.featured -->
 			</div> <!-- div.l-wrapper -->
