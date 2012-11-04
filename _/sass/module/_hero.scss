@@ -1,43 +1,10 @@
 .hero {
-	@include grid(16, .5);
-	margin-top: $vmargin / 2;
-	margin-bottom: $vmargin / 2;
-	background-color: $color-two-light;
-	border: 1px solid $color-two-dark;
-	@include border-radius(2px);
-	img {
-		@include grid(48);
-		padding: 6px;
-	}
-	h1 {
-		@include grid(48);
-		padding: 10px;
-		font-family: $font-family-display;
-		color: $color-four;
-	}
-	a {
-		display: block;
-		overflow: auto;
-	}
-	ul {
-		@include grid(48);
-		padding: 10px;
-		border-top: 1px solid $color-two-dark;
-		li {
-			font-size: $font-size-small;
-			@include grid(24);
-			text-align: center;
+	@include grid(32, 1);
+	font-size: $font-size-small;
+	img, 
+	.video {
+		embed {
+			@include grid(48);
 		}
-	}
-	&:hover {
-		background-color: $color-two;
-		cursor: pointer;
-		border: 1px solid $color-three;
-		ul {
-			border-top: 1px solid $color-three;
-		}
-	}
-	a {
-		color: $color-two-dark;
 	}
 }

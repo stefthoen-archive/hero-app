@@ -1,0 +1,15 @@
+.nav-tabs {
+	@include grid(48);
+	margin-top: $vmargin;
+	font-size: $font-size-normal;
+	ul {
+		@include grid(48);
+		border-bottom: 1px solid $color-two;
+		li {
+			border-top: 1px solid $color-two;
+			border-left: 1px solid $color-two;
+			border-right: 1px solid $color-two;
+			padding: 8px;
+		}
+	}
+}

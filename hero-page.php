@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Support a Hero</title>
+		<title>Help een Held</title>
 		<?php include '_/parts/css_js_includes.php' ?>
 		
 		<style type="text/css">
@@ -16,20 +16,24 @@
 	<body>
 		<div class="l-wrapper">
 			<?php include '_/parts/header.php' ?>
-			<article>
+			<article class="hero">
 				<header>
 					<h1>Jerzy Kazemier, triathleet</h1>
-					<p class="video">
+					<div class="video">
 						<embed width="420" height="345" src="http://www.youtube.com/v/ZqIRL3PF8VI" type="application/x-shockwave-flash"></embed>
-					</p>
+					</div>
 				</header>
-				<nav class="tabs">
-					<ul><li><a href="#mystory" id="mystory-nav-button">My story</a></li><li><a href="#updates" id="updates-nav-button">Updates</a></li></ul>
+				<nav class="nav nav-tabs">
+					<ul>
+						<li><a href="#mystory" id="mystory-nav-button">My story</a></li>
+						<li><a href="#updates" id="updates-nav-button">Updates</a></li>
+					</ul>
 				</nav>
 				<section id="mystory" class="tab">
-					<article>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor pharetra quam id fermentum. Cras semper bibendum posuere. Nullam feugiat ipsum libero. Pellentesque sit amet enim non tortor ultricies aliquam. Sed arcu justo, eleifend id condimentum pellentesque, sagittis at nisi. Ut rutrum fringilla ultricies.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor pharetra quam id fermentum. Cras semper bibendum posuere. Nullam feugiat ipsum libero. Pellentesque sit amet enim non tortor ultricies aliquam. Sed arcu justo, eleifend id condimentum pellentesque, sagittis at nisi. Ut rutrum fringilla ultricies.</p>
+					<article class="story">
+						<p class="intro">Vertel iedereen wat je wil en iemand zal je helpen om dat voor elkaar te krijgen. Ik ben nu 10 Ironmans op 3 continenten verder...</p>
+						<p>I am Jerzy Kasemier. I swim. I bike. I run. I do triathlon. I train hard. I race hard. I see place all over the globe. I learn from different cultures. But it are the small things that stay with me the most.
+						<p>Those small things keep me smiling. Keep me going. Keep me in love with what I do. This amazing shot, in the Timex Sports 2011 catalog, is one of those small things. 'Just a shot', but one that will stick with me forever. When I first saw it this morning I could not stop smiling, loving and wanting to go train and race.</p>
 					</article>
 				</section>
 				<section id="updates" class="tab">
@@ -57,62 +61,62 @@
 					<a class="twitter-timeline" href="https://twitter.com/jerzykasemier" data-widget-id="264881785513590784">Tweets by @jerzykasemier</a>
 				</section>
 				
-				<aside>
-					<dl>
-						<dt>Fans:</dt>
-						<dd>753</dd>
-						<dt>Total donation:</dt>
-						<dd>&euro;2.535</dd>
-					</dl>
-					<div id="donations">
-						<div class="donation">
-							<a href="#inline-a">
-								<img src="" alt="&euro;10,-" />
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							</a>
-							<div class="modal-content" id="inline-a">
-								A
-							</div>
-						</div>
-						<div class="donation">
-							<a href="#inline-b">
-								<img src="" alt="Bicycle" />
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							</a>
-							<div class="modal-content" id="inline-b">
-								B
-							</div>
-						</div>
-						<div class="donation">
-							<a href="#inline-c">
-								<img src="" alt="&euro;25,-" />
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							</a>
-							<div class="modal-content" id="inline-c">
-								C
-							</div>
-						</div>
-						<div class="donation">
-							<a href="#inline-d">
-								<img src="" alt="&euro;50,-" />
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							</a>
-							<div class="modal-content" id="inline-d">
-								D
-							</div>
-						</div>
-						<div class="donation">
-							<a href="#inline-e">
-								<img src="" alt="Plane ticket" />
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							</a>
-							<div class="modal-content" id="inline-e">
-								E
-							</div>
+			</article>
+			<aside class="l-aside">
+				<dl>
+					<dt>Fans:</dt>
+					<dd>753</dd>
+					<dt>Total donation:</dt>
+					<dd>&euro;2.535</dd>
+				</dl>
+				<div id="donations">
+					<div class="donation">
+						<a href="#inline-a">
+							<img src="" alt="&euro;10,-" />
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						</a>
+						<div class="modal-content" id="inline-a">
+							A
 						</div>
 					</div>
-				</aside>
-			</article>
+					<div class="donation">
+						<a href="#inline-b">
+							<img src="" alt="Bicycle" />
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						</a>
+						<div class="modal-content" id="inline-b">
+							B
+						</div>
+					</div>
+					<div class="donation">
+						<a href="#inline-c">
+							<img src="" alt="&euro;25,-" />
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						</a>
+						<div class="modal-content" id="inline-c">
+							C
+						</div>
+					</div>
+					<div class="donation">
+						<a href="#inline-d">
+							<img src="" alt="&euro;50,-" />
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						</a>
+						<div class="modal-content" id="inline-d">
+							D
+						</div>
+					</div>
+					<div class="donation">
+						<a href="#inline-e">
+							<img src="" alt="Plane ticket" />
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						</a>
+						<div class="modal-content" id="inline-e">
+							E
+						</div>
+					</div>
+				</div>
+			</aside> <!-- aside.l-aside -->
 			<?php include '_/parts/footer.php' ?>
 		</div>
 		

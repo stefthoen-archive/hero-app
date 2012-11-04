@@ -1,0 +1,11 @@
+.intro {
+	@include grid(48);
+	margin-top: 0;
+	padding-top: $vmargin;
+	padding-bottom: $vmargin;
+	color: $color-four;
+	font-family: $font-family-display;
+	font-size: $font-size-big;
+	line-height: 1.6em;
+	border-bottom : 1px solid $color-two;
+}

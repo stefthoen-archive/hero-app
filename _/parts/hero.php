@@ -1,4 +1,4 @@
-<article class="hero">
+<article class="thumb">
 	<a href="hero-page.php"><img src="_/images/hero-thumb.png" alt="Hero Thumbnail"></a>
 	<a href="hero-page.php"><h1 class="name">Naam van Held: Hier komt een verhaaltje over de held</h1></a>
 	<ul>

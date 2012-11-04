@@ -90,6 +90,11 @@ body {
 a {
   text-decoration: none; }
 
+/* line 15, ../sass/_base.scss */
+p {
+  margin-top: 1em;
+  margin-bottom: 1em; }
+
 /* line 1, ../sass/layout/_l-wrapper.scss */
 .l-wrapper {
   max-width: 960px;
@@ -142,6 +147,19 @@ a {
   #footer li {
     display: inline; }
 
+/* line 1, ../sass/layout/_l-aside.scss */
+.l-aside {
+  float: left;
+  width: 29.16667%;
+  margin-left: 2.08333%;
+  margin-right: 2.08333%;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid #cccccc; }
+
 /* line 1, ../sass/module/_nav.scss */
 .nav {
   float: left;
@@ -156,6 +174,28 @@ a {
 .nav-main {
   background-color: #212121; }
 
+/* line 1, ../sass/module/_nav-tabs.scss */
+.nav-tabs {
+  float: left;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 1.4em;
+  font-size: 14px; }
+  /* line 5, ../sass/module/_nav-tabs.scss */
+  .nav-tabs ul {
+    float: left;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    border-bottom: 1px solid #cccccc; }
+    /* line 8, ../sass/module/_nav-tabs.scss */
+    .nav-tabs ul li {
+      border-top: 1px solid #cccccc;
+      border-left: 1px solid #cccccc;
+      border-right: 1px solid #cccccc;
+      padding: 8px; }
+
 /* line 1, ../sass/module/_nav-sub.scss */
 .nav-sub {
   float: left;
@@ -168,8 +208,8 @@ a {
   margin-top: 1.4em;
   margin-bottom: 1.4em; }
 
-/* line 1, ../sass/module/_hero.scss */
-.hero {
+/* line 1, ../sass/module/_thumb.scss */
+.thumb {
   float: left;
   width: 31.25%;
   margin-left: 1.04167%;
@@ -183,15 +223,15 @@ a {
   -ms-border-radius: 2px;
   -o-border-radius: 2px;
   border-radius: 2px; }
-  /* line 8, ../sass/module/_hero.scss */
-  .hero img {
+  /* line 8, ../sass/module/_thumb.scss */
+  .thumb img {
     float: left;
     width: 100%;
     margin-left: 0%;
     margin-right: 0%;
     padding: 6px; }
-  /* line 12, ../sass/module/_hero.scss */
-  .hero h1 {
+  /* line 12, ../sass/module/_thumb.scss */
+  .thumb h1 {
     float: left;
     width: 100%;
     margin-left: 0%;
@@ -199,34 +239,72 @@ a {
     padding: 10px;
     font-family: "Merriweather", sans-serif;
     color: #00b3e1; }
-  /* line 18, ../sass/module/_hero.scss */
-  .hero a {
+  /* line 18, ../sass/module/_thumb.scss */
+  .thumb a {
     display: block;
     overflow: auto; }
-  /* line 22, ../sass/module/_hero.scss */
-  .hero ul {
+  /* line 22, ../sass/module/_thumb.scss */
+  .thumb ul {
     float: left;
     width: 100%;
     margin-left: 0%;
     margin-right: 0%;
     padding: 10px;
     border-top: 1px solid #999999; }
-    /* line 26, ../sass/module/_hero.scss */
-    .hero ul li {
+    /* line 26, ../sass/module/_thumb.scss */
+    .thumb ul li {
       font-size: 12px;
       float: left;
       width: 50%;
       margin-left: 0%;
       margin-right: 0%;
       text-align: center; }
-  /* line 32, ../sass/module/_hero.scss */
-  .hero:hover {
+  /* line 32, ../sass/module/_thumb.scss */
+  .thumb:hover {
     background-color: #cccccc;
     cursor: pointer;
     border: 1px solid white; }
-    /* line 36, ../sass/module/_hero.scss */
-    .hero:hover ul {
+    /* line 36, ../sass/module/_thumb.scss */
+    .thumb:hover ul {
       border-top: 1px solid white; }
-  /* line 40, ../sass/module/_hero.scss */
-  .hero a {
+  /* line 40, ../sass/module/_thumb.scss */
+  .thumb a {
     color: #999999; }
+
+/* line 1, ../sass/module/_hero.scss */
+.hero {
+  float: left;
+  width: 62.5%;
+  margin-left: 2.08333%;
+  margin-right: 2.08333%;
+  font-size: 12px; }
+  /* line 6, ../sass/module/_hero.scss */
+  .hero img embed,
+  .hero .video embed {
+    float: left;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%; }
+
+/* line 1, ../sass/module/_intro.scss */
+.intro {
+  float: left;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 0;
+  padding-top: 1.4em;
+  padding-bottom: 1.4em;
+  color: #00b3e1;
+  font-family: "Merriweather", sans-serif;
+  font-size: 18px;
+  line-height: 1.6em;
+  border-bottom: 1px solid #cccccc; }
+
+/* line 1, ../sass/module/_slide.scss */
+.slide {
+  height: 400px; }
+
+/* line 5, ../sass/module/_slide.scss */
+#jerzy {
+  background-image: url("../images/jerzy.jpg"); }
