@@ -8,7 +8,7 @@
 	<body>
 		<div class="l-wrapper">
 			<?php include '_/parts/header.php' ?>
-			<div class="flexslider"
+			<div class="flexslider">
 				<ul id="featured" class="slides">
 					<li class="slide">
 						<h1>Jerzy Kazemier, triathleet</h1>
@@ -27,7 +27,7 @@
 			<?php include '_/parts/nav-sub.php' ?>
 			<section class="l-heroes">
 				<h1>Featured Heroes</h1>
-				<?php for ( $i; $i < 10; $i++ ) : ?>
+				<?php for ( $i = 0; $i < 10; $i++ ) : ?>
 					<?php include '_/parts/hero.php' ?>
 				<?php endfor; ?>
 			</section> <!-- section.featured -->
@@ -39,8 +39,7 @@
 					animation: "slide",
 					animationLoop: true
 				});
-			});
-			
+
 				// Request a position. We accept positions whose age is not
 				// greater than 10 minutes. If the user agent does not have a
 				// fresh enough cached position object, it will automatically
