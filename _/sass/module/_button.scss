@@ -4,4 +4,8 @@
 	border-top: 1px solid $color-three;
 	@include border-radius(5px);
 	@include single-box-shadow;
+	cursor: pointer;
+	&:hover {
+		background-color: darken($color-two, 10%);
+	}
 }

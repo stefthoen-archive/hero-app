@@ -4,9 +4,19 @@
 	padding-top: $vmargin;
 	padding-bottom: $vmargin;
 	margin-top: $vmargin;
-	margin-bottom: $vmargin;
+	margin-bottom: $vmargin - .8em;
+	padding-left: 130px;
+	span {
+		margin-top: 4px;
+	}
 	select {
-		height: 40px;
-		padding: 10px;
+		margin-left: 20px;
+		margin-right: 20px;
+		background: transparent;
+		width: 300px;
+		padding: 5px;
+		font-size: 16px;
+		border: 1px solid #ccc;
+		height: 34px;
 	}
 }

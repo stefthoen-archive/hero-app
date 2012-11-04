@@ -238,11 +238,21 @@ p {
   padding-top: 1.4em;
   padding-bottom: 1.4em;
   margin-top: 1.4em;
-  margin-bottom: 1.4em; }
-  /* line 8, ../sass/module/_nav-sub.scss */
+  margin-bottom: 0.6em;
+  padding-left: 130px; }
+  /* line 9, ../sass/module/_nav-sub.scss */
+  .nav-sub span {
+    margin-top: 4px; }
+  /* line 12, ../sass/module/_nav-sub.scss */
   .nav-sub select {
-    height: 40px;
-    padding: 10px; }
+    margin-left: 20px;
+    margin-right: 20px;
+    background: transparent;
+    width: 300px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    height: 34px; }
 
 /* line 1, ../sass/module/_thumb.scss */
 .thumb {
@@ -321,13 +331,20 @@ p {
     margin-top: 1.4em;
     margin-bottom: 1.4em;
     text-transform: uppercase; }
-  /* line 13, ../sass/module/_hero.scss */
-  .hero img embed,
+  /* line 12, ../sass/module/_hero.scss */
   .hero .video embed {
     float: left;
     width: 100%;
     margin-left: 0%;
     margin-right: 0%; }
+  /* line 16, ../sass/module/_hero.scss */
+  .hero img {
+    float: left;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 1.4em;
+    margin-bottom: 1.4em; }
 
 /* line 1, ../sass/module/_intro.scss */
 .intro {
@@ -351,6 +368,14 @@ p {
 /* line 5, ../sass/module/_slide.scss */
 #jerzy {
   background-image: url("../images/jerzy.jpg"); }
+
+/* line 9, ../sass/module/_slide.scss */
+#muzikant {
+  background-image: url("../images/muzikant.jpg"); }
+
+/* line 13, ../sass/module/_slide.scss */
+#kunstenaar {
+  background-image: url("../images/kunstenaar.jpg"); }
 
 /* line 1, ../sass/module/_update.scss */
 .update {
@@ -379,12 +404,19 @@ p {
   border-radius: 5px;
   -webkit-box-shadow: 0px 0px 5px #333333;
   -moz-box-shadow: 0px 0px 5px #333333;
-  box-shadow: 0px 0px 5px #333333; }
+  box-shadow: 0px 0px 5px #333333;
+  cursor: pointer; }
+  /* line 8, ../sass/module/_button.scss */
+  .button:hover {
+    background-color: #b3b3b3; }
 
 /* line 1, ../sass/module/_button-action.scss */
 .button-action {
   background-color: #f15022;
   color: white; }
+  /* line 4, ../sass/module/_button-action.scss */
+  .button-action:hover {
+    background-color: #d3390d; }
 
 /* line 1, ../sass/module/_donation.scss */
 .donation {
@@ -426,7 +458,11 @@ p {
   font-size: 36px;
   line-height: 1.2em;
   text-align: center;
-  margin-bottom: 1.7em; }
+  margin-bottom: 1.4em; }
   /* line 7, ../sass/module/_fans.scss */
   .fans .number {
     color: #00b3e1; }
+
+/* line 1, ../sass/module/_tab.scss */
+.tab {
+  margin-bottom: 2.8em; }

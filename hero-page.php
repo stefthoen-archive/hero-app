@@ -25,15 +25,17 @@
 				</header>
 				<nav class="nav nav-tabs">
 					<ul>
-						<li><a href="#mystory" id="mystory-nav-button" class="navtab is-selected">My story</a></li>
-						<li><a href="#updates" id="updates-nav-button" class="navtab">Updates</a></li>
+						<li><a href="#mystory" id="mystory-nav-button">My story</a></li>
+						<li><a href="#updates" id="updates-nav-button">Updates</a></li>
 					</ul>
 				</nav>
 				<section id="mystory" class="tab">
 					<article class="story">
-						<p class="intro">Vertel iedereen wat je wil en iemand zal je helpen om dat voor elkaar te krijgen. Ik ben nu 10 Ironmans op 3 continenten verder...</p>
-						<p>I am Jerzy Kasemier. I swim. I bike. I run. I do triathlon. I train hard. I race hard. I see place all over the globe. I learn from different cultures. But it are the small things that stay with me the most.
-						<p>Those small things keep me smiling. Keep me going. Keep me in love with what I do. This amazing shot, in the Timex Sports 2011 catalog, is one of those small things. 'Just a shot', but one that will stick with me forever. When I first saw it this morning I could not stop smiling, loving and wanting to go train and race.</p>
+						<p class="intro">Ik ben Jerzy Kasemier. Ik zwem. Ik fiets. Ik loop. Ik doe triathlon. Ik ben proftriathleet.</p>
+						<p>In 1994 is het allemaal begonnen. Een kennismakingscursus triathlon. Ik was 14 jaar en had me zo goed mogelijk voorbereid op mijn eerste triathlon. 500 Meter zwemmen, 20 kilometer fietsen en 5 kilometer hardlopen. Helaas werd het zwemmen afgelast en moest ik het doen met 5 kilometer hardlopen, 20 kilometer fietsen en 2,5 kilomter hardlopen. Gelukkig was de blijdschap groter dan de pijn in de benen. En zo startte mijn triathlon carriere.</p>  
+						<p>Nu is het 2012. 18 jaar zijn er voorbij. Heb ik wedstrijden gedaan op drie continenten. Staan er 10 Ironmans (3,8 kilometer zwemmen, 180 kilometer fietsen en 41,195 kilometer lopen) achter mijn naam. Stond ik op de tweede en derde tree van het NK lange afstand (Ironman). En kijk ik vooruit naar de komende jaren.</p>
+						<img src="_/images/jerzy.jpg" alt="Jerzy wint er weer eentje">
+						<p>De afgelopen 5 jaar heb ik als prof sporter de wereld rond gereisd. Een droom. De droom die ik al in 1994 had en die nu werkelijkheid is geworden. Nu in 2012 kijk ik naar 2013 en verder. Een nieuwe insteek. Een andere aanpak. Een nieuwe uitdaging. En daar heb ik jou hulp bij nodig.</p>
 					</article>
 				</section>
 				<section id="updates" class="tab">
@@ -66,14 +68,14 @@
 				<dl class="fans">
 					<dt>Fans:</dt>
 					<dd class="number">753</dd>
-					<dt>Total donation:</dt>
-					<dd class="number">&euro;2.535</dd>
+					<dt>Gedoneerd:</dt>
+					<dd class="number">&euro; 2.535,00</dd>
 				</dl>
 				<div id="donations">
 					<div class="donation">
 						<a href="#inline-a">
 							<p class="price">&euro;10,-</>
-							<p class="reward">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							<p class="reward">Handtekening per post opgestuurd</p>
 						</a>
 					</div>
 					<div class="modal-content" id="inline-a">
@@ -83,7 +85,7 @@
 					<div class="donation">
 						<a href="#inline-b">
 							<p class="price">&euro;20,-</>
-							<p class="reward">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							<p class="reward">Magazine per post opgestuurd</p>
 						</a>
 						<div class="modal-content" id="inline-b">
 							B
@@ -92,7 +94,7 @@
 					<div class="donation">
 						<a href="#inline-c">
 							<p class="price">&euro;25,-</>
-							<p class="reward">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							<p class="reward">Magazine hardlopend langsgebracht + handtekening (per post)</p>
 						</a>
 						<div class="modal-content" id="inline-c">
 							C
@@ -100,8 +102,8 @@
 					</div>
 					<div class="donation">
 						<a href="#inline-d">
-							<p class="price">&euro;35,-</>
-							<p class="reward">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							<p class="price">&euro;500,-</>
+							<p class="reward">Hardloopclinic voor jou en al je vrienden (mits niet meer dan 500)</p>
 						</a>
 						<div class="modal-content" id="inline-d">
 							D
@@ -109,8 +111,8 @@
 					</div>
 					<div class="donation">
 						<a href="#inline-e">
-							<p class="price">&euro;50,-</>
-							<p class="reward">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							<p class="price">&euro;1050,-</>
+							<p class="reward">Gesigneerd shirt + hardloopclinic + persoonlijke trainingsprogramma (en een magazine)</p>
 						</a>
 						<div class="modal-content" id="inline-e">
 							E
@@ -121,10 +123,10 @@
 			<?php include '_/parts/footer.php' ?>
 		</div>
 		
-		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-		<script type="text/javascript">
-			$( function() {
-			
+
+		<script>
+			$(document).ready(function() {
+
 				// Modalboxes
 				$(".donation a").fancybox({
 					maxWidth	: 800,
@@ -140,17 +142,13 @@
 				
 				// Tabs
 				$("#mystory-nav-button").click( function (){
-					//$(".navtab").removeClass("is-selected");
-					//$(this).addClass("is-selected");
 					$(".tab").hide();
 					$("#mystory").show();
 				});
 				
 				$("#updates-nav-button").click( function (){
-					//$.(".navtab")removeClass("is-selected");
-					//$(this).addClass("is-selected");
 					$(".tab").hide();
-					$(#updates").show();
+					$("#updates").show();
 				});
 				
 				// Hide tabs and open first

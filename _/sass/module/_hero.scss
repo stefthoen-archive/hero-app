@@ -8,10 +8,14 @@
 		margin-bottom: $vmargin;
 		text-transform: uppercase;
 	}
-	img, 
 	.video {
 		embed {
 			@include grid(48);
 		}
+	}
+	img {
+		@include grid(48);
+		margin-top: $vmargin;
+		margin-bottom: $vmargin;
 	}
 }

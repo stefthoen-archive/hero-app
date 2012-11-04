@@ -1,4 +1,7 @@
 .button-action {
 	background-color: $color-five;
 	color: $color-three;
+	&:hover {
+	background-color: darken($color-five, 10%); 
+	}
 }

@@ -13,20 +13,16 @@
 					<li id="jerzy" class="slide">
 						<?php include '_/parts/hero.php' ?>
 					</li>
-					<li class="slide">
+					<li id="muzikant" class="slide">
 						<?php include '_/parts/hero.php' ?>
 					</li>
-					<li class="slide">
+					<li id="kunstenaar" class="slide">
 						<?php include '_/parts/hero.php' ?>
 					</li>
 				</ul> <!-- ul.featured -->
 			</div> <!-- div.l-wrapper -->
 			<?php include '_/parts/nav-sub.php' ?>
-			<section class="l-heroes">
-				<?php for ( $i = 0; $i < 10; $i++ ) : ?>
-					<?php include '_/parts/hero.php' ?>
-				<?php endfor; ?>
-			</section> <!-- section.featured -->
+			<?php include '_/parts/heroes.php' ?>
 			<?php include '_/parts/footer.php' ?>
 		</div>
 		<script type="text/javascript">
