@@ -4,6 +4,10 @@
 		<meta charset="utf-8">
 		<title>Help een Held</title>
 		<?php include '_/parts/css_js_includes.php' ?>
+		
+		<style type="text/css">
+			.flexslider { float:left; }
+		</style>
 	</head>
 	<body>
 		<div class="l-wrapper">

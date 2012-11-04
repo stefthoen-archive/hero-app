@@ -9,7 +9,7 @@
 			#donations .donation { clear: both; }
 			#donations .donation img { float: left; }
 			
-			.modal-content { display: none; }
+			.modal-content { display: none; height:100% }
 			section.twitter-feed { width: 340px; }
 		</style>
 	</head>
@@ -18,7 +18,7 @@
 			<?php include '_/parts/header.php' ?>
 			<article class="hero">
 				<header>
-					<h1>Jerzy Kazemier, triathleet</h1>
+					<h1>Jerzy Kasemier, triathleet</h1>
 					<div class="video">
 						<embed width="420" height="345" src="http://www.youtube.com/v/ZqIRL3PF8VI" type="application/x-shockwave-flash"></embed>
 					</div>
@@ -59,13 +59,13 @@
 					</article>
 				</section>
 				
-				<section class="twitter-feed" style="display: none !important;">
+				<section class="twitter-feed" style="display: visible !important;">
 					<a class="twitter-timeline" href="https://twitter.com/jerzykasemier" data-widget-id="264881785513590784">Tweets by @jerzykasemier</a>
 				</section>
 				
 			</article>
 			<aside class="l-aside">
-				<dl class="fans">
+				<dl class="fans" style="margin-bottom:0.8em;">
 					<dt>Fans:</dt>
 					<dd class="number">753</dd>
 					<dt>Gedoneerd:</dt>
@@ -77,10 +77,25 @@
 							<p class="price">&euro;10,-</>
 							<p class="reward">Handtekening per post opgestuurd</p>
 						</a>
-					</div>
-					<div class="modal-content" id="inline-a">
-						A
-					</div>
+						<div class="modal-content" id="inline-a">
+							<div style="border:1px solid #000;height:100%;padding:20px;">
+								<div style="clear:both;margin:10px 0 10px 0;">
+									<p style="float:left;margin-left:25px;">Help met: <input type="text" width="50" value="&euro;10,00" style="margin-left:20px;" /></p>
+								</div>
+								<div style="clear:both;margin:10px 0 10px 0;">
+									<p style="float:left;margin-left:25px;vertical-align:top;margin-top:0;">
+									Voor je hulp krijg je:
+									</p>
+									<ul style="float:left;margin-left:15px;vertical-align:top;display:block;">
+										<li>Handtekening Jerzy</li>
+										<li>Jerzy Magazine &copy;</li>
+									</ul>
+								</div>
+								<div style="position:absolute;right:70px;bottom:35px;border:1px solid #000;background-color:#ccc; padding:10px;">
+									Doneer nu!
+								</div>
+							</div>
+						</div>
 					</div>
 					<div class="donation">
 						<a href="#inline-b">
@@ -88,7 +103,23 @@
 							<p class="reward">Magazine per post opgestuurd</p>
 						</a>
 						<div class="modal-content" id="inline-b">
-							B
+							<div style="border:1px solid #000;height:100%;padding:20px;">
+								<div style="clear:both;margin:10px 0 10px 0;">
+									<p style="float:left;margin-left:25px;">Help met: <input type="text" width="50" value="&euro;20,00" style="margin-left:20px;" /></p>
+								</div>
+								<div style="clear:both;margin:10px 0 10px 0;">
+									<p style="float:left;margin-left:25px;vertical-align:top;margin-top:0;">
+									Voor je hulp krijg je:
+									</p>
+									<ul style="float:left;margin-left:15px;vertical-align:top;display:block;">
+										<li>Handtekening Jerzy</li>
+										<li>Jerzy Magazine &copy;</li>
+									</ul>
+								</div>
+								<div style="position:absolute;right:70px;bottom:35px;border:1px solid #000;background-color:#ccc; padding:10px;">
+									Doneer nu!
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="donation">
@@ -97,7 +128,23 @@
 							<p class="reward">Magazine hardlopend langsgebracht + handtekening (per post)</p>
 						</a>
 						<div class="modal-content" id="inline-c">
-							C
+							<div style="border:1px solid #000;height:100%;padding:20px;">
+								<div style="clear:both;margin:10px 0 10px 0;">
+									<p style="float:left;margin-left:25px;">Help met: <input type="text" width="50" value="&euro;25,00" style="margin-left:20px;" /></p>
+								</div>
+								<div style="clear:both;margin:10px 0 10px 0;">
+									<p style="float:left;margin-left:25px;vertical-align:top;margin-top:0;">
+									Voor je hulp krijg je:
+									</p>
+									<ul style="float:left;margin-left:15px;vertical-align:top;display:block;">
+										<li>Handtekening Jerzy</li>
+										<li>Jerzy Magazine &copy;</li>
+									</ul>
+								</div>
+								<div style="position:absolute;right:70px;bottom:35px;border:1px solid #000;background-color:#ccc; padding:10px;">
+									Doneer nu!
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="donation">
@@ -106,7 +153,23 @@
 							<p class="reward">Hardloopclinic voor jou en al je vrienden (mits niet meer dan 500)</p>
 						</a>
 						<div class="modal-content" id="inline-d">
-							D
+							<div style="border:1px solid #000;height:100%;padding:20px;">
+								<div style="clear:both;margin:10px 0 10px 0;">
+									<p style="float:left;margin-left:25px;">Help met: <input type="text" width="50" value="&euro;35,00" style="margin-left:20px;" /></p>
+								</div>
+								<div style="clear:both;margin:10px 0 10px 0;">
+									<p style="float:left;margin-left:25px;vertical-align:top;margin-top:0;">
+									Voor je hulp krijg je:
+									</p>
+									<ul style="float:left;margin-left:15px;vertical-align:top;display:block;">
+										<li>Handtekening Jerzy</li>
+										<li>Jerzy Magazine &copy;</li>
+									</ul>
+								</div>
+								<div style="position:absolute;right:70px;bottom:35px;border:1px solid #000;background-color:#ccc; padding:10px;">
+									Doneer nu!
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="donation">
@@ -115,7 +178,23 @@
 							<p class="reward">Gesigneerd shirt + hardloopclinic + persoonlijke trainingsprogramma (en een magazine)</p>
 						</a>
 						<div class="modal-content" id="inline-e">
-							E
+							<div style="border:1px solid #000;height:100%;padding:20px;">
+								<div style="clear:both;margin:10px 0 10px 0;">
+									<p style="float:left;margin-left:25px;">Help met: <input type="text" width="50" value="&euro;50,00" style="margin-left:20px;" /></p>
+								</div>
+								<div style="clear:both;margin:10px 0 10px 0;">
+									<p style="float:left;margin-left:25px;vertical-align:top;margin-top:0;">
+									Voor je hulp krijg je:
+									</p>
+									<ul style="float:left;margin-left:15px;vertical-align:top;display:block;">
+										<li>Handtekening Jerzy</li>
+										<li>Jerzy Magazine &copy;</li>
+									</ul>
+								</div>
+								<div style="position:absolute;right:70px;bottom:35px;border:1px solid #000;background-color:#ccc; padding:10px;">
+									Doneer nu!
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -128,9 +207,9 @@
 			$(document).ready(function() {
 
 				// Modalboxes
-				$(".donation a").fancybox({
-					maxWidth	: 800,
-					maxHeight	: 600,
+				$(".donation > a").fancybox({
+					maxWidth	: 400,
+					maxHeight	: 300,
 					fitToView	: false,
 					width		: '70%',
 					height		: '70%',

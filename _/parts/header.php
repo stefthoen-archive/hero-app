@@ -1,6 +1,6 @@
 <header id="header">
 	<nav class="nav nav-main">
-		<a href="http://localhost:8888/hero/hero-app/" class="logo"><h1>Logo</h1></a>
+		<a href="http://localhost:8888/hero/hero-app/" class="logo"><img src="_/images/logo.png" /></a>
 			<ul>
 				<li class="button">Wie Zijn de Helden?</li>
 				<li class="button button-action">Wees een Held!</li>
