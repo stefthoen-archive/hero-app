@@ -74,7 +74,7 @@
 				<div id="donations">
 					<div class="donation">
 						<a href="#inline-a">
-							<p class="price">&euro;10,-</>
+							<img class="price" src="_/images/icon/icon-drink.png">
 							<p class="reward">Handtekening per post opgestuurd</p>
 						</a>
 						<div class="modal-content" id="inline-a">
@@ -99,7 +99,7 @@
 					</div>
 					<div class="donation">
 						<a href="#inline-b">
-							<p class="price">&euro;20,-</>
+							<img class="price" src="_/images/icon/icon-bike.png">
 							<p class="reward">Magazine per post opgestuurd</p>
 						</a>
 						<div class="modal-content" id="inline-b">
@@ -124,7 +124,7 @@
 					</div>
 					<div class="donation">
 						<a href="#inline-c">
-							<p class="price">&euro;25,-</>
+							<img class="price" src="_/images/icon/icon-plane.png">
 							<p class="reward">Magazine hardlopend langsgebracht + handtekening (per post)</p>
 						</a>
 						<div class="modal-content" id="inline-c">

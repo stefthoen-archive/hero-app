@@ -433,9 +433,9 @@ p {
   /* line 9, ../sass/module/_donation.scss */
   .donation .price {
     float: left;
-    width: 29.16667%;
-    margin-left: 2.08333%;
-    margin-right: 2.08333%;
+    width: 25%;
+    margin-left: 4.16667%;
+    margin-right: 4.16667%;
     font-size: 18px;
     text-align: center; }
   /* line 14, ../sass/module/_donation.scss */
