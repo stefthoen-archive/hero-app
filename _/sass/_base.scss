@@ -1,0 +1,13 @@
+* { 
+	@include box-sizing(border-box); 
+}
+
+body {
+	font-family: $font-family-body;
+	background-color: $color-two;
+	line-height: $line-height;
+}
+
+a {
+	text-decoration: none;
+}

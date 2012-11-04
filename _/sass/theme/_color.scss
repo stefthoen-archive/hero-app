@@ -1,1 +1,6 @@
-$color-one: black; //black
+$color-one: #212121; //black
+$color-two: #CCCCCC; //also grey
+$color-two-light: lighten($color-two, 10%);
+$color-two-dark: darken($color-two, 20%);
+$color-three: #FFFFFF; //white
+$color-four: #00B3E1; //blue

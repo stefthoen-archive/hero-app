@@ -1,0 +1,8 @@
+.nav-sub {
+	@include grid(48);
+	background-color: $color-two-light;
+	padding-top: $vmargin;
+	padding-bottom: $vmargin;
+	margin-top: $vmargin;
+	margin-bottom: $vmargin;
+}

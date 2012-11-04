@@ -1,1 +1,12 @@
-$font-size-normal: 16px;
+$font-family-body: 'Lucida Grande', sans-serif;
+$font-family-display: 'Merriweather', sans-serif;
+$font-family-body: 'Open Sans', sans-serif;
+
+$font-size-small: 12px;
+$font-size-normal: 14px;
+$font-size-big: 14px;
+
+$vmargin: 1.4em;
+$line-height: 1.4em;
+
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,700,300|Open+Sans:400italic,400);

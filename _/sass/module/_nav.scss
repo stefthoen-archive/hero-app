@@ -1,0 +1,6 @@
+.nav {
+	@include grid(48);
+	* {
+		float: left;
+	}
+}

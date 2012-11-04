@@ -1,0 +1,8 @@
+#footer {
+	@include grid(48);
+	background-color: $color-one;
+	color: $color-three;
+	li {
+		display: inline;
+	}
+}

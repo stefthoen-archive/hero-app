@@ -1,5 +1,5 @@
 <header id="header">
-	<nav class="l-nav-main">
+	<nav class="nav nav-main">
 		<h1>Logo</h1>
 			<ul>
 				<li>Who Are the Heroes</li>
@@ -8,4 +8,4 @@
 			</ul>
 		<a href="#" class="account">Hoi Jerzy!</a>
 	</nav>
-</header>
+</header> <!-- header#header -->

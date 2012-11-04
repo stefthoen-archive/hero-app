@@ -4,13 +4,25 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+@import "compass/css3/box-sizing";
+@import "compass/css3/box-shadow";
+@import "compass/css3/border-radius";
+@import "compass/css3/font-face";
 
 @import "theme/type.scss";
 @import "theme/color.scss";
 
 @import "grid.scss";
 
+@import "base.scss";
+
 @import "layout/l-wrapper.scss";
 @import "layout/header.scss";
+@import "layout/l-featured.scss";
+@import "layout/l-heroes.scss";
+@import "layout/footer.scss";
 
-@import "module/l-nav-main.scss";
+@import "module/nav.scss";
+@import "module/nav-main.scss";
+@import "module/nav-sub.scss";
+@import "module/hero.scss";

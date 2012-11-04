@@ -1,4 +1,7 @@
-.wrapper {
-	max-width: $max-width;
+.l-wrapper {
+	max-width: 960px;
 	margin: 0 auto;	
+	overflow: auto;
+	background-color: $color-three;
+	@include single-box-shadow;
 }
