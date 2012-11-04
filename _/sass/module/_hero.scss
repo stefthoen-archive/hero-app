@@ -1,6 +1,13 @@
 .hero {
 	@include grid(32, 1);
 	font-size: $font-size-small;
+	h1 {
+		font-family: $font-family-body;
+		font-size: $font-size-huge;
+		margin-top: $vmargin;
+		margin-bottom: $vmargin;
+		text-transform: uppercase;
+	}
 	img, 
 	.video {
 		embed {

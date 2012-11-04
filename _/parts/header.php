@@ -1,11 +1,11 @@
 <header id="header">
 	<nav class="nav nav-main">
-		<h1>Logo</h1>
+		<a href="http://localhost:8888/hero/hero-app/" class="logo"><h1>Logo</h1></a>
 			<ul>
-				<li>Who Are the Heroes</li>
-				<li>Be a Hero!</li>
-				<form><input class="search" placeholder="Zoek naar helden"></form>
+				<li class="button">Wie Zijn de Helden?</li>
+				<li class="button button-action">Wees een Held!</li>
+				<form><input class="search" placeholder="Zoek naar Helden"></form>
 			</ul>
-		<a href="#" class="account">Hoi Jerzy!</a>
+		<a class="globe" href="#" class="account">Hoi Jerzy!</a>
 	</nav>
 </header> <!-- header#header -->

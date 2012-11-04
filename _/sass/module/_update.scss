@@ -1,0 +1,13 @@
+.update {
+	@include grid(48);
+	margin-top: $vmargin;
+	margin-bottom: $vmargin;
+	header {
+		h1 {
+			font-family: $font-family-display;
+			color: $color-four;
+			font-size: $font-size-big;
+			margin: 0;
+		}
+	}
+}

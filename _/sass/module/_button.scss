@@ -1,0 +1,7 @@
+.button {
+	padding: 8px 16px;
+	background-color: $color-two;
+	border-top: 1px solid $color-three;
+	@include border-radius(5px);
+	@include single-box-shadow;
+}

@@ -25,8 +25,8 @@
 				</header>
 				<nav class="nav nav-tabs">
 					<ul>
-						<li><a href="#mystory" id="mystory-nav-button">My story</a></li>
-						<li><a href="#updates" id="updates-nav-button">Updates</a></li>
+						<li><a href="#mystory" id="mystory-nav-button" class="navtab is-selected">My story</a></li>
+						<li><a href="#updates" id="updates-nav-button" class="navtab">Updates</a></li>
 					</ul>
 				</nav>
 				<section id="mystory" class="tab">
@@ -57,32 +57,33 @@
 					</article>
 				</section>
 				
-				<section class="twitter-feed">
+				<section class="twitter-feed" style="display: none !important;">
 					<a class="twitter-timeline" href="https://twitter.com/jerzykasemier" data-widget-id="264881785513590784">Tweets by @jerzykasemier</a>
 				</section>
 				
 			</article>
 			<aside class="l-aside">
-				<dl>
+				<dl class="fans">
 					<dt>Fans:</dt>
-					<dd>753</dd>
+					<dd class="number">753</dd>
 					<dt>Total donation:</dt>
-					<dd>&euro;2.535</dd>
+					<dd class="number">&euro;2.535</dd>
 				</dl>
 				<div id="donations">
 					<div class="donation">
 						<a href="#inline-a">
-							<img src="" alt="&euro;10,-" />
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							<p class="price">&euro;10,-</>
+							<p class="reward">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 						</a>
-						<div class="modal-content" id="inline-a">
-							A
-						</div>
+					</div>
+					<div class="modal-content" id="inline-a">
+						A
+					</div>
 					</div>
 					<div class="donation">
 						<a href="#inline-b">
-							<img src="" alt="Bicycle" />
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							<p class="price">&euro;20,-</>
+							<p class="reward">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 						</a>
 						<div class="modal-content" id="inline-b">
 							B
@@ -90,8 +91,8 @@
 					</div>
 					<div class="donation">
 						<a href="#inline-c">
-							<img src="" alt="&euro;25,-" />
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							<p class="price">&euro;25,-</>
+							<p class="reward">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 						</a>
 						<div class="modal-content" id="inline-c">
 							C
@@ -99,8 +100,8 @@
 					</div>
 					<div class="donation">
 						<a href="#inline-d">
-							<img src="" alt="&euro;50,-" />
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							<p class="price">&euro;35,-</>
+							<p class="reward">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 						</a>
 						<div class="modal-content" id="inline-d">
 							D
@@ -108,8 +109,8 @@
 					</div>
 					<div class="donation">
 						<a href="#inline-e">
-							<img src="" alt="Plane ticket" />
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							<p class="price">&euro;50,-</>
+							<p class="reward">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 						</a>
 						<div class="modal-content" id="inline-e">
 							E
@@ -139,13 +140,17 @@
 				
 				// Tabs
 				$("#mystory-nav-button").click( function (){
+					//$(".navtab").removeClass("is-selected");
+					//$(this).addClass("is-selected");
 					$(".tab").hide();
 					$("#mystory").show();
 				});
 				
 				$("#updates-nav-button").click( function (){
+					//$.(".navtab")removeClass("is-selected");
+					//$(this).addClass("is-selected");
 					$(".tab").hide();
-					$("#updates").show();
+					$(#updates").show();
 				});
 				
 				// Hide tabs and open first

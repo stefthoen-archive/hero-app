@@ -1,0 +1,21 @@
+.donation {
+	@include grid(48);
+	font-size: $font-size-small;
+	background-color: $color-six;
+	margin-top: $vmargin / 2;
+	margin-bottom: $vmargin / 2;
+	padding-top: $vmargin;
+	padding-bottom: $vmargin;
+	.price {
+		@include grid(16, 1);
+		font-size: $font-size-big;
+		text-align: center;
+	}
+	.reward {
+		@include grid(32);
+	}
+	&:hover {
+		background-color: $color-seven;
+		cursor: pointer;
+	}
+}

@@ -1,3 +1,36 @@
 .nav-main {
-	background-color: $color-one;
+	background: url('../images/header.png') repeat-x;
+	.logo {
+		margin: 0 6px;
+		background-image: url('../images/logo.png');
+		width: 220px;
+		height: 140px;
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+	ul {
+		margin-top: 40px;
+		margin-left: 20px;
+		li {
+			margin-right: 1em;
+		}
+	}
+	input {
+		font-size: $font-size-normal;
+		padding: 6px;
+		margin-right: 1em;
+		height: 38px;
+		width: 270px;
+		@include border-radius(5px);
+	}
+	.globe {
+		margin-top: 36px;
+		width: 48px;
+		height: 48px;
+		background: url('../images/globe.png') no-repeat;
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+	}
 }

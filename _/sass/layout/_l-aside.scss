@@ -1,5 +1,3 @@
 .l-aside {
 	@include grid(16, 1);
-	@include border-radius(2px);
-	border: 1px solid $color-two;
 }

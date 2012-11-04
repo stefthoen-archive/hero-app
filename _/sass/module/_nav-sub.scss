@@ -5,4 +5,8 @@
 	padding-bottom: $vmargin;
 	margin-top: $vmargin;
 	margin-bottom: $vmargin;
+	select {
+		height: 40px;
+		padding: 10px;
+	}
 }

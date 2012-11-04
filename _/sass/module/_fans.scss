@@ -1,0 +1,10 @@
+.fans {
+	@include grid(48);
+	font-size: $font-size-huge;
+	line-height: 1.2em;
+	text-align: center;
+	margin-bottom: $vmargin + .3em; 
+	.number {
+		color: $color-four;
+	}
+}

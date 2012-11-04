@@ -88,9 +88,10 @@ body {
 
 /* line 11, ../sass/_base.scss */
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #212121; }
 
-/* line 15, ../sass/_base.scss */
+/* line 16, ../sass/_base.scss */
 p {
   margin-top: 1em;
   margin-bottom: 1em; }
@@ -152,13 +153,7 @@ p {
   float: left;
   width: 29.16667%;
   margin-left: 2.08333%;
-  margin-right: 2.08333%;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -ms-border-radius: 2px;
-  -o-border-radius: 2px;
-  border-radius: 2px;
-  border: 1px solid #cccccc; }
+  margin-right: 2.08333%; }
 
 /* line 1, ../sass/module/_nav.scss */
 .nav {
@@ -172,7 +167,44 @@ p {
 
 /* line 1, ../sass/module/_nav-main.scss */
 .nav-main {
-  background-color: #212121; }
+  background: url("../images/header.png") repeat-x; }
+  /* line 3, ../sass/module/_nav-main.scss */
+  .nav-main .logo {
+    margin: 0 6px;
+    background-image: url("../images/logo.png");
+    width: 220px;
+    height: 140px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden; }
+  /* line 12, ../sass/module/_nav-main.scss */
+  .nav-main ul {
+    margin-top: 40px;
+    margin-left: 20px; }
+    /* line 15, ../sass/module/_nav-main.scss */
+    .nav-main ul li {
+      margin-right: 1em; }
+  /* line 19, ../sass/module/_nav-main.scss */
+  .nav-main input {
+    font-size: 14px;
+    padding: 6px;
+    margin-right: 1em;
+    height: 38px;
+    width: 270px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px; }
+  /* line 27, ../sass/module/_nav-main.scss */
+  .nav-main .globe {
+    margin-top: 36px;
+    width: 48px;
+    height: 48px;
+    background: url("../images/globe.png") no-repeat;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden; }
 
 /* line 1, ../sass/module/_nav-tabs.scss */
 .nav-tabs {
@@ -207,6 +239,10 @@ p {
   padding-bottom: 1.4em;
   margin-top: 1.4em;
   margin-bottom: 1.4em; }
+  /* line 8, ../sass/module/_nav-sub.scss */
+  .nav-sub select {
+    height: 40px;
+    padding: 10px; }
 
 /* line 1, ../sass/module/_thumb.scss */
 .thumb {
@@ -278,7 +314,14 @@ p {
   margin-left: 2.08333%;
   margin-right: 2.08333%;
   font-size: 12px; }
-  /* line 6, ../sass/module/_hero.scss */
+  /* line 4, ../sass/module/_hero.scss */
+  .hero h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 36px;
+    margin-top: 1.4em;
+    margin-bottom: 1.4em;
+    text-transform: uppercase; }
+  /* line 13, ../sass/module/_hero.scss */
   .hero img embed,
   .hero .video embed {
     float: left;
@@ -308,3 +351,82 @@ p {
 /* line 5, ../sass/module/_slide.scss */
 #jerzy {
   background-image: url("../images/jerzy.jpg"); }
+
+/* line 1, ../sass/module/_update.scss */
+.update {
+  float: left;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 1.4em;
+  margin-bottom: 1.4em; }
+  /* line 6, ../sass/module/_update.scss */
+  .update header h1 {
+    font-family: "Merriweather", sans-serif;
+    color: #00b3e1;
+    font-size: 18px;
+    margin: 0; }
+
+/* line 1, ../sass/module/_button.scss */
+.button {
+  padding: 8px 16px;
+  background-color: #cccccc;
+  border-top: 1px solid white;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333; }
+
+/* line 1, ../sass/module/_button-action.scss */
+.button-action {
+  background-color: #f15022;
+  color: white; }
+
+/* line 1, ../sass/module/_donation.scss */
+.donation {
+  float: left;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+  font-size: 12px;
+  background-color: #c9eddd;
+  margin-top: 0.7em;
+  margin-bottom: 0.7em;
+  padding-top: 1.4em;
+  padding-bottom: 1.4em; }
+  /* line 9, ../sass/module/_donation.scss */
+  .donation .price {
+    float: left;
+    width: 29.16667%;
+    margin-left: 2.08333%;
+    margin-right: 2.08333%;
+    font-size: 18px;
+    text-align: center; }
+  /* line 14, ../sass/module/_donation.scss */
+  .donation .reward {
+    float: left;
+    width: 66.66667%;
+    margin-left: 0%;
+    margin-right: 0%; }
+  /* line 17, ../sass/module/_donation.scss */
+  .donation:hover {
+    background-color: #3aaa35;
+    cursor: pointer; }
+
+/* line 1, ../sass/module/_fans.scss */
+.fans {
+  float: left;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+  font-size: 36px;
+  line-height: 1.2em;
+  text-align: center;
+  margin-bottom: 1.7em; }
+  /* line 7, ../sass/module/_fans.scss */
+  .fans .number {
+    color: #00b3e1; }

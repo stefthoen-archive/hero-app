@@ -23,7 +23,6 @@
 			</div> <!-- div.l-wrapper -->
 			<?php include '_/parts/nav-sub.php' ?>
 			<section class="l-heroes">
-				<h1>Featured Heroes</h1>
 				<?php for ( $i = 0; $i < 10; $i++ ) : ?>
 					<?php include '_/parts/hero.php' ?>
 				<?php endfor; ?>
