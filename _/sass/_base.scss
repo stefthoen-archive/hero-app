@@ -4,7 +4,7 @@
 
 body {
 	font-family: $font-family-body;
-	background-color: $color-two;
+	background: $color-two url('../images/bg.png') no-repeat;
 	line-height: $line-height;
 }
 

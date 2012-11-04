@@ -1,7 +1,13 @@
 #footer {
 	@include grid(48);
+	height: 160px;
 	background-color: $color-one;
 	color: $color-three;
+	font-size: $font-size-small;
+	ul {
+		@include grid(48,1);
+		padding-top: 1em;
+	}
 	li {
 		display: inline;
 	}

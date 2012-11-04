@@ -83,7 +83,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* line 5, ../sass/_base.scss */
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #cccccc;
+  background: #cccccc url("../images/bg.png") no-repeat;
   line-height: 1.4em; }
 
 /* line 11, ../sass/_base.scss */
@@ -127,9 +127,18 @@ a {
   width: 100%;
   margin-left: 0%;
   margin-right: 0%;
+  height: 160px;
   background-color: #212121;
-  color: white; }
-  /* line 5, ../sass/layout/_footer.scss */
+  color: white;
+  font-size: 12px; }
+  /* line 7, ../sass/layout/_footer.scss */
+  #footer ul {
+    float: left;
+    width: 95.83333%;
+    margin-left: 2.08333%;
+    margin-right: 2.08333%;
+    padding-top: 1em; }
+  /* line 11, ../sass/layout/_footer.scss */
   #footer li {
     display: inline; }
 

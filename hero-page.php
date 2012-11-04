@@ -9,12 +9,12 @@
 			#donations .donation { clear: both; }
 			#donations .donation img { float: left; }
 			
-			.modal-content { display:none; }
-			section.twitter-feed { width:340px; }
+			.modal-content { display: none; }
+			section.twitter-feed { width: 340px; }
 		</style>
 	</head>
 	<body>
-		<div class="wrapper">
+		<div class="l-wrapper">
 			<?php include '_/parts/header.php' ?>
 			<article>
 				<header>
